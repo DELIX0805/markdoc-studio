@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+.npm-cache/
+
+# Frontend build output
+dist/
+
+# Tauri / Rust build output
+src-tauri/target/
+src-tauri/gen/schemas/
+
+# Local release artifacts
+output-single-exe/
+*.exe
+*.msi
+*.pdb
+
+# Local configuration and logs
+.npmrc
+*.log
+vite-preview*.out.log
+vite-preview*.err.log
+
+# Audit / temporary review artifacts
+audit-final-review/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Backups
+*.bak
